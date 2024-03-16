@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(35, 35, 35);
+}
+nav{
+    display: flex;
+    height: 10vh;
+    gap: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 65, 65);
+}
+nav a{
+    text-decoration: none;
+    color: wheat;
+}
+nav a:active{
+    color: rgb(196, 0, 0);
+}
+h1{
+    color: rgb(255, 0, 0);   
+    margin-top: 20px;
+}
+h2{
+    display: block;
+    color: rgb(139, 33, 33);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+}
